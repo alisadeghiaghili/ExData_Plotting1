@@ -12,7 +12,7 @@ rm(data)
 
 png(filename = "plot1.png", width = 480, height = 480)
 
-hist(twoDays$Global_active_power, 
+hist(x = twoDays$Global_active_power, 
      col = "red", 
      border = "black",
      xlab = "Global Active Power (kilowatts)",
